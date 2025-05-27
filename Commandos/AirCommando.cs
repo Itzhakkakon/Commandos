@@ -16,5 +16,9 @@ namespace Commandos
         {
             Console.WriteLine("Parachute");
         }
+        public override void Attack()
+        {
+            Console.WriteLine("Airborne Commando Soldier Attacks!");
+        }
     }
 }

@@ -29,9 +29,9 @@ namespace Commandos
             status = "hiding";
             Console.WriteLine($"The soldier {name} is {status}");
         }
-        public void Attack()
+        public virtual void Attack()
         {
-            Console.WriteLine($"The soldier {name} the codname is {CodeName}");
+            Console.WriteLine($"The soldier Attack!");
         }
         public void SayName(string commanderRank)
         {

@@ -16,5 +16,9 @@ namespace Commandos
         {
             Console.WriteLine("Swim");
         }
+        public override void Attack()
+        {
+            Console.WriteLine("Marine commando attacks!");
+        }
     }
 }
