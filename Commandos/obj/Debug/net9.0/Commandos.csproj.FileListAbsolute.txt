@@ -1,0 +1,15 @@
+C:\Users\Itzhak\source\repos\Commandos\Commandos\bin\Debug\net9.0\Commandos.exe
+C:\Users\Itzhak\source\repos\Commandos\Commandos\bin\Debug\net9.0\Commandos.deps.json
+C:\Users\Itzhak\source\repos\Commandos\Commandos\bin\Debug\net9.0\Commandos.runtimeconfig.json
+C:\Users\Itzhak\source\repos\Commandos\Commandos\bin\Debug\net9.0\Commandos.dll
+C:\Users\Itzhak\source\repos\Commandos\Commandos\bin\Debug\net9.0\Commandos.pdb
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.AssemblyInfoInputs.cache
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.AssemblyInfo.cs
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.csproj.CoreCompileInputs.cache
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.sourcelink.json
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.dll
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\refint\Commandos.dll
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.pdb
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\Commandos.genruntimeconfig.cache
+C:\Users\Itzhak\source\repos\Commandos\Commandos\obj\Debug\net9.0\ref\Commandos.dll

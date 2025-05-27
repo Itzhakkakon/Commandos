@@ -16,7 +16,7 @@ namespace Commandos
         {
             this.name = name;
             this.codeName = codeName;
-            this.gear = new string[5];
+            this.gear = new string[5] { "Hammer", "chisel", "rope", "bag", "water" };
             this.status = "standing";
         }
         public void Walk()
