@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Commando commando = new Commando("John", 1234, "gear", "standing");
+            Commando commando = new Commando("John", "1234", "gear", "standing");
             commando.Walk();
             commando.Hide();
             commando.Attack();
@@ -12,6 +12,9 @@
             weapon.Shoot();
             Console.WriteLine($"Weapon: {weapon.name}, Manufacturer: {weapon.manufacturer}, Remaining bullets: {weapon.numberOfBalls}");
             commando.SayName("COLONEL");
+            Console.WriteLine(commando.CodeName);
+            commando.CodeName = "12345";
+            Console.WriteLine(commando.CodeName);
         }
     }
 }

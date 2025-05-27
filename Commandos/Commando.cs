@@ -9,13 +9,13 @@ namespace Commandos
     internal class Commando
     {
         private string name;
-        public int codeName;
+        public string CodeName { get; set; }
         public string[] gear;
         public string status;
-        public Commando(string name, int codeName, string gear, string status)
+        public Commando(string name, string codeName, string gear, string status)
         {
             this.name = name;
-            this.codeName = codeName;
+            this.CodeName = codeName;
             this.gear = new string[5] { "Hammer", "chisel", "rope", "bag", "water" };
             this.status = "standing";
         }
@@ -31,7 +31,7 @@ namespace Commandos
         }
         public void Attack()
         {
-            Console.WriteLine($"The soldier {name} the codname is {codeName}");
+            Console.WriteLine($"The soldier {name} the codname is {CodeName}");
         }
         public void SayName(string commanderRank)
         {
@@ -41,7 +41,7 @@ namespace Commandos
             }
             else if (commanderRank == "COLONEL")
             {
-                Console.WriteLine($"The soldier's personal number is: {codeName}");
+                Console.WriteLine($"The soldier's personal number is: {CodeName}");
             }
             else
             {
