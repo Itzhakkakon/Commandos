@@ -11,6 +11,7 @@
             Weapon weapon = new Weapon("Rifle", "Glok", 30);
             weapon.Shoot();
             Console.WriteLine($"Weapon: {weapon.name}, Manufacturer: {weapon.manufacturer}, Remaining bullets: {weapon.numberOfBalls}");
+            commando.SayName("COLONEL");
         }
     }
 }

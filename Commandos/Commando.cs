@@ -8,7 +8,7 @@ namespace Commandos
 {
     internal class Commando
     {
-        public string name;
+        private string name;
         public int codeName;
         public string[] gear;
         public string status;
@@ -32,6 +32,21 @@ namespace Commandos
         public void Attack()
         {
             Console.WriteLine($"The soldier {name} the codname is {codeName}");
+        }
+        public void SayName(string commanderRank)
+        {
+            if (commanderRank == "GENERAL")
+            {
+                Console.WriteLine($"name is {name}");
+            }
+            else if (commanderRank == "COLONEL")
+            {
+                Console.WriteLine($"The soldier's personal number is: {codeName}");
+            }
+            else
+            {
+                Console.WriteLine("You are not authorized to see this information, it is classified information.");
+            }
         }
     }
 }
