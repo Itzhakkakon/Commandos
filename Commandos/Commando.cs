@@ -33,20 +33,9 @@ namespace Commandos
         {
             Console.WriteLine($"The soldier Attack!");
         }
-        public void SayName(string commanderRank)
+        public string SayName(string commanderRank)
         {
-            if (commanderRank == "GENERAL")
-            {
-                Console.WriteLine($"name is {name}");
-            }
-            else if (commanderRank == "COLONEL")
-            {
-                Console.WriteLine($"The soldier's personal number is: {CodeName}");
-            }
-            else
-            {
-                Console.WriteLine("You are not authorized to see this information, it is classified information.");
-            }
+           return ClearanceHandler.GetName(commanderRank, name, CodeName);
         }
     }
 }
