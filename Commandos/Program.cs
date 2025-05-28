@@ -11,7 +11,7 @@
             //Weapon weapon = new Weapon("Rifle", "Glok", 30);
             //weapon.Shoot();
             //Console.WriteLine($"Weapon: {weapon.name}, Manufacturer: {weapon.manufacturer}, Remaining bullets: {weapon.numberOfBalls}");           
-            Console.WriteLine(commando.SayName("dvxf"));
+            Console.WriteLine(commando.SayName("COLONEL"));
             //commando.CodeName = "12345";
             //Console.WriteLine(commando.CodeName);
 
